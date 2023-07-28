@@ -1,0 +1,67 @@
+h1{
+    color: crimson;
+    background-color: aquamarine;
+}
+
+h2{
+    font-size: larger;
+    font-family:cursive;
+    font-weight: bolder;
+    font-style: italic;
+    font-variant: small-caps;
+}
+h3{
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-decoration-color:blueviolet;
+    text-align: center;
+
+}
+#para1{
+    /* border: 1px solid red ; */
+    border-style:dotted;
+    border-width: 5px;
+    border-color: blue;
+    border-top: 10px;
+    border-radius:20px;
+    padding: 20px;
+    /* display: none; */
+
+}
+#div1{
+height: 500px;
+width: 500px;
+background-color : darkolivegreen;
+opacity: 0.9;
+padding: 20px;
+
+/* overflow: hidden; */
+/* overflow: visible; */
+overflow: auto;
+/* overflow: scroll; */
+
+/* visibility: hidden; */
+}
+
+/* table proerties */
+
+#users{
+    border-collapse: collapse;
+    width:500px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    font-size: 24px;
+
+
+}
+
+#users td,#users th{
+    border:1px solid coral;
+    padding: 10px;
+}
+#users tr:hover{
+    background-color: darkred;
+    color: aliceblue;
+}
+
+
+

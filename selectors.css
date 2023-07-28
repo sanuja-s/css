@@ -1,0 +1,57 @@
+#para1{
+    background-color: aqua;
+    color: rgb(121, 29, 0);
+    font-size: 20px;
+
+}
+
+#para1 span{
+
+    color: rgb(241, 238, 23);
+    font-size:35px
+
+}
+
+input[type="text"]{
+    color: blue !important;
+    font-size: 24px;
+}
+
+h1,h2,h3 {
+    color: brown;
+    background-color: darkgoldenrod;
+
+}
+
+#div1{
+    background-color: crimson;
+    width: 500px;
+    height: fit-content;
+    color: darkseagreen;
+    font-size: 30px;
+}
+
+#div1 h2,h3,p  {
+color: inherit;
+font-size:inherit;
+background-color: inherit;
+}
+
+h1::first-letter{
+    color: blue;
+    font-size: 40px;
+
+}
+
+#para1::first-line{
+    color: rgb(77, 7, 206);
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+h2:hover{
+    background-color: coral;
+    font-size: 80px;
+    color: fuchsia;
+}
+
